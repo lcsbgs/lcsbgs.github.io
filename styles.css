@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    height: 80px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav li {
+    margin: 0 10px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+  }
+  
+  .nav a:hover {
+    color: #ffffff;
+    background-color: #2962FF;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  .search-form {
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #99CCFF;
+  }
+  
+  .search-form input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  a.fas {
+    color: #333333;
+    font-size: 20px;
+  }
+  
+  .login-buttons {
+    margin: 10px 0;
+  }
+  
+  .login-buttons button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #99CCFF;
+  }
+  
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: #2962FF;
+  }
+
+  .line2 {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    height: 90px;
+    width: auto;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner img {
+    width: 80%;
+    height: auto;
+  }
