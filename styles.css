@@ -96,6 +96,27 @@ body {
     margin-top: 0;
   }
 
+  
+.add_cart {
+  font-size:15px;
+  font-family: 'Inter', sans-serif;
+  width:188px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(24, 171, 41, 0);
+  font-weight:bold;
+  border-radius:13px;
+  transition: 0.5s;
+  background:rgba(79, 35, 110, 1);
+}
+
+.add_cart:hover {
+  box-shadow: 0px 0px 12px -2px rgba(144, 19, 254, 1);
+  cursor: pointer;
+}
+              
+
   .product {
     padding: 15px;
     margin: 0 10px;
