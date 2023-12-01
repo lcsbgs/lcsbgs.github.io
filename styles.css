@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap');
+
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -20,31 +23,38 @@ body {
   }
   
   .nav li {
-    margin: 0 10px;
+    margin: 0 30px;
   }
   
   .nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     text-decoration: none;
-    color: #333333;
-    font-size: 16px;
+    color: #4F236E;
+    font-size: 15px;
   }
   
   .nav a:hover {
-    color: #ffffff;
-    background-color: #2962FF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #4F236E;
     text-decoration: none;
-    transition: 0.2s;
+    border-bottom: solid #4F236E;
+    padding-bottom: 10px;
+    transition: .5s ease;
   }
   
   .search-form {
     width: 200px;
     margin: 0 10px;
-    border-radius: 5px;
-    background-color: #99CCFF;
+    border-radius: 15px;
+    background-color: #E6DBEB;
   }
   
   .search-form input {
-    border: 1px solid #ccc;
+    background-color: #E6DBEB;
+    border-radius: 15px;
+    border: 2px solid #4F236E;
     padding: 10px;
     font-size: 16px;
   }
@@ -70,10 +80,28 @@ body {
     justify-content: center;
   }
   
+  .price_full{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #4F236E;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .price_parc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #4F236E;
+    text-align: center;
+    margin-top: 0;
+  }
+
   .product {
+    padding: 15px;
     margin: 0 10px;
-    border-radius: 5px;
-    background-color: #99CCFF;
+    border-radius: 15px;
+    background-color: #fff;
+    border: solid #4F236E;
   }
   
   .line {
