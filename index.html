@@ -1,117 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pet Shop</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reprodutor de Vídeos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('fundos/capa.png'); /* Substitua pelo caminho da sua imagem de fundo */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #000; /* Cor do texto, ajuste conforme necessário */
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <!-- <label for="videoName">Nome do Vídeo:</label> -->
+        <input type="text" id="videoName" placeholder="Digite o código da música">
+        <!-- <button onclick="playVideo()">Reproduzir</button> -->
+        <video id="videoPlayer" controls></video>
+    </div>
 
-  <header>
-    <a href="/"><img class="logo" src="./assets/logo pets.png" alt="Logo do Pet Shop"></a>
-    <ul class="nav">
-      <li><a href="#">Rações secas</a></li>
-      <li><a href="#">Rações úmidas</a></li>
-      <li><a href="#">Banho</a></li>
-      <li><a href="#">Tosa</a></li>
-    </ul>
-    <form class="search-form">
-      <input type="text" placeholder="O que você procura?">
-    </form>
-    <a href="#">
-      <img class="shop-cart" src="./assets/cart.png" alt="sacola de produtos"/>
-    </a>
-    <a href="#">
-      <img class="user-page" src="./assets/1077114.png" alt="sacola de produtos"/>
-    </a>
-    <div class="login-buttons">
-      <a class="login" href="./cadastro.html">Faça login</a> <br>
-      <a class="cadastro" href="./cadastro.html">Ou cadastre-se</a>
-    </div>
-  </header>
-
-  <section class="banner">
-    <img src="/assets/7774725.png" alt="Banner do Pet Shop">
-  </section>
-
-  <section class="products">
-    <h2>Produtos</h2>
-    <hr class="line">
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-</section>
-
-<section class="products">
-    <!-- <h2>Outros produtos</h2> -->
-    <hr class="line2">
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-    <div class="product">
-      <img class="prod_img" src="./assets/daa73a6443.webp" alt="Produto 5">
-      <h3>Ração seca <br> para cachorro</h3>
-      <p class="price_full">por: R$999,99</p>
-      <p class="price_parc">ou 10x de 99,90</p>
-      <button class="add_cart">Adicionar ao <br> carrinho</button>
-    </div>
-  </section>
-  
+    <script src="script.js"></script>
+</body>
+</html>

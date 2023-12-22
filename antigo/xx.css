@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap');
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    height: 80px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav li {
+    margin: 0 30px;
+  }
+  
+  .nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #4F236E;
+    font-size: 18px;
+  }
+
+  .cadastro{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+
+  .login{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+  }
+  
+    .login-buttons {
+      padding-right: 50px;
+    }
+
+  .nav a:hover {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #4F236E;
+    text-decoration: none;
+    border-bottom: solid #4F236E;
+    padding-bottom: 10px;
+    transition: .5s ease;
+  }
+  
+  .shop-cart{
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .user-page{
+    cursor: pointer;
+    height: 40px;
+  }
+
+  .search-form {
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: #E6DBEB;
+  }
+  
+  .search-form input {
+    background-color: #E6DBEB;
+    border-radius: 15px;
+    border: 2px solid #4F236E;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  a.fas {
+    color: #333333;
+    font-size: 20px;
+  }
+  
+  .login-buttons {
+    margin: 10px 0;
+  }
+  
+  .login-buttons button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #4F236E;
+    margin-right: 50%;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .price_full{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #4F236E;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .price_parc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #4F236E;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  
+.add_cart {
+  font-size:15px;
+  font-family: 'Inter', sans-serif;
+  width:188px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(24, 171, 41, 0);
+  font-weight:bold;
+  border-radius:13px;
+  transition: 0.5s;
+  background:rgba(79, 35, 110, 1);
+}
+
+.add_cart:hover {
+  box-shadow: 0px 0px 12px -2px rgba(144, 19, 254, 1);
+  cursor: pointer;
+}
+       
+  .prod_img {
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .product {
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: solid #4F236E;
+  }
+  
+  .line {
+    width: 90%;
+    height: 5px;
+    marker-start: 40px;
+    margin-bottom: 70px;
+    background-color: #4F236E;
+  }
+
+  .line2 {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 70px;
+    background-color: #ffffff;
+  }
+  
+  .logo {
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 150px;
+    width: auto;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner img {
+    width: 80%;
+    height: auto;
+  }

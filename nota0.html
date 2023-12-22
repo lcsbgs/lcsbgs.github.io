@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #background-image {
+            width: 100%;
+            height: 100vh;
+            background-image: url('fundos/nota0.png'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        #center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #back-button {
+            padding: 30px 50px;
+            font-size: 25px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="background-image"></div>
+
+    <div id="center-container">
+        <button id="back-button" onclick="window.location.href = 'index.html'">Voltar</button>
+    </div>
+
+</body>
+</html>

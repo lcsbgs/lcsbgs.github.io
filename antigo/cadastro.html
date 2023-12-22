@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Pet Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="/"><img class="logo" src="./assets/logo pets.png" alt="Logo do Pet Shop"></a>
+        <ul class="nav">
+          <li><a href="#">Rações secas</a></li>
+          <li><a href="#">Rações úmidas</a></li>
+          <li><a href="#">Banho</a></li>
+          <li><a href="#">Tosa</a></li>
+        </ul>
+        <form class="search-form">
+          <input type="text" placeholder="Pesquisar">
+        </form>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#"><i class="fas fa-user"></i></a>
+        <div class="login-buttons">
+            <a href="./cadastro.html">Login</a>
+            <a href="./cadastro.html">Cadastrar</a>
+        </div>
+      </header>
+
+  <section class="register">
+
+    <section class="register-left">
+      <h2>Cadastro</h2>
+      <div class="register-type">
+        <input type="radio" name="type" id="human" value="human">
+        <label for="human">Humano</label>
+        <input type="radio" name="type" id="pet" value="pet">
+        <label for="pet">Pet</label>
+      </div>
+      <hr class="line">
+      <div class="register-fields">
+        <div class="register-field">
+            <div class="register-field-title">Qual seu nome?</div>
+          <input type="text" id="name" class="input-field" placeholder="Seu nome">
+        </div>
+        <div class="register-field">
+            <div class="register-field-title">Qual seu e-mail?</div>
+          <input type="email" id="email" class="input-field" placeholder="Seu e-mail">
+        </div>
+        <div class="register-field">
+            <div class="register-field-title">Qual seu endereço?</div>
+          <input type="text" id="address" class="input-field" placeholder="Seu endereço">
+        </div>
+        <div class="register-field">
+            <div class="register-field-title">Crie uma senha:</div>
+          <input type="password" id="password" class="input-field" placeholder="Sua senha">
+        </div>
+        <div class="register-field">
+          <div class="register-field-title">Repita a senha:</div>
+          <input type="password" id="repeat-password" class="input-field" placeholder="Sua senha novamente">
+        </div>
+      </div>
+      <button class="button">Cadastrar</button>
+    </section>
+
+    <section class="register-right">
+      <img src="./assets/alexandra-tran-YDEeyIL6BQM-unsplash.jpg" alt="Banner do Pet Shop" class="center-image" style="max-width: 100%; height: auto; object-fit: cover; position: absolute; top: 0; bottom: 0; right: 0; left: 0;">
+    </section>
+
+  </section>
+
+</body>
+</html>
